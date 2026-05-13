@@ -7,6 +7,10 @@
 
 A real-time, physics-based simulation of a **Panamax container crane** loading shipping containers from quay to vessel. Built with [PyBullet](https://pybullet.org), the simulator produces labelled IMU sensor datasets suitable for machine-learning research in industrial IoT, crane monitoring, and predictive maintenance.
 
+<p align="center">
+  <img src="assets/screenshots/2.png" width="800" alt="CraneSim simulation screenshot"/>
+</p>
+
 ---
 
 ##  Features
