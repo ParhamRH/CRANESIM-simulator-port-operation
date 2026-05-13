@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to CraneSim!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or limitation you're running into.
+      placeholder: "e.g. I need to simulate container swing to test my pendulum-damping algorithm…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe what you'd like to see added or changed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you've thought about?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which module(s) does this affect?
+      multiple: true
+      options:
+        - config.py
+        - sensors.py
+        - crane_objects.py
+        - physics_controller.py
+        - camera_manager.py
+        - ui_manager.py
+        - data_manager.py
+        - simulator.py
+        - docs / README
+        - CI / tooling
+        - Other
