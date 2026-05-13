@@ -179,15 +179,6 @@ Ideas already scaffolded in the code comments:
 | **Return cycle** | Uncomment `DETACHING → LIFTING_EMPTY → RETURNING` in `physics_controller.py` |
 | **Multiple container types** | Extend `crane_objects.create_container()` with a `type` parameter |
 
----
-
-##  Tests
-
-```bash
-pytest tests/
-```
-
-Test stubs live in `tests/`. Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
 
